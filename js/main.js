@@ -1,5 +1,36 @@
 $(document).ready(function() {
 
+  //Navbar Toggle
+  $('.navbar-toggler').click(function(){
+    $('.navbar-toggler').toggleClass('change')
+  });
+
+  //Fixed Navbar
+  $(window).scroll(function(){
+    let position = $(this).scrollTop();
+    
+    if (position >= 758){
+      $('.navbar').addClass('navbar-background');
+      $('.navbar').addClass('fixed-top');
+    }
+
+    else{
+      $('.navbar').removeClass('navbar-background');
+      $('.navbar').removeClass('fixed-top');
+    }
+  })
+
+  //Smooth Scroll
+  $('.nav-item a').click(function(link){
+    link.preventDefault();
+
+    let target = $(this).attr('href');
+
+    $('html, body').animate({
+      scrollTop: $(target).offset().top = 25
+    }, 3000);
+  })
+
   //Ripples
   $("#header, .info").ripples({
     dropRadius: 20,

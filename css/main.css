@@ -150,6 +150,74 @@ rgba(0, 0, 0, 0.4)),
   }
 }
 
+/*========= Navbar ========*/
+.navbar{
+  background: #fff;
+  color: #841818;
+  padding: 20px 20px;
+  transition: 1s;
+}
+
+.navbar-brand{
+  color: #841818;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.navbar-brand:hover{
+  color: #dd9037;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.nav-link{
+  color: #841818;
+  text-decoration: none;
+  transition: 1s;
+  font-size: 22px;
+}
+
+/* .navbar-toggler {
+  border-color: #841818;
+} */
+
+.toggler-btn{
+  border: 2px solid #841818;
+  padding: 5px;
+  transition: 1s;
+}
+
+.navbar-toggler{
+  outline: 0!important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.bar{
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background: #f8a240;
+  transition: 0.5s;
+}
+
+.change .bar1{
+  transform: rotate(-45deg) translate(-5px, 6px);
+  transition: 0.5s;
+}
+
+.change .bar2{
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.change .bar3{
+  transform: rotate(45deg) translate(-5px, -8px);
+  transition: 0.5s;
+}
+
 /*========= Foods ========*/
 #food-items{
   background-image: url("../assets/bg.gif");
