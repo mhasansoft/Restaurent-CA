@@ -63,7 +63,21 @@
 
 
   <!--================ Navbar Section =================-->
+  <nav class="navbar navbar-expand-lg">
+    <a href="" class="navbar-brand text-uppercase">
+      MSteak
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+      <span class="toggler-btn">
+        <span class="bar bar1"></span>
+        <span class="bar bar2"></span>
+        <span class="bar bar3"></span>
+      </span>
+    </button>
 
+
+    
+  </nav>
 
   <!--================ Food Section =================-->
   <section class="py-5" id="food-items">
@@ -402,8 +416,17 @@
 
   <!--================ Reviews Section =================-->
   <section id="reviews" class="py-5">
-    <div class="carousel slider" data-ride="carousel" id="slider">
+    <div class="carousel slide" data-ride="carousel" id="slider">
+
+      <h2 class="text-center mb-4"> Customer Review</h2>
+
       <div class="carousel-inner">
+
+        <ol class="carousel-indicators">
+          <li data-bs-target="#slider" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#slider" data-bs-slide-to="1"></li>
+          <li data-bs-target="#slider" data-bs-slide-to="2"></li>
+        </ol>
 
         <!-- Review 1 -->
         <div class="carousel-item active">
@@ -431,7 +454,7 @@
           </div>
         </div>
 
-        <!-- Review 1 -->
+        <!-- Review 2 -->
         <div class="carousel-item">
           <div class="container">
             <div class="row">
@@ -439,12 +462,12 @@
               <div class="col-lg-10 mx-auto d-flex justify-content-between review-item py-3">
 
                 <div class="align-self-center ml-3">
-                  <img src="assets/review/review-2.jpg" alt="" class="rounded-circle review-img">
+                  <img src="assets/review/review-2.png" alt="" class="rounded-circle review-img">
                 </div>
 
                 <div class="review-text px-5">
                   <h2 class="text-capitalize mb-3">
-                    Mahmudul Hasan
+                    Yeamini Eva
                   </h2>
 
                   <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod rerum illum, dolorum
@@ -457,8 +480,8 @@
           </div>
         </div>
 
-        <!-- Review 1 -->
-        <div class="carousel-item">
+        <!-- Review 3 -->
+        <div class="carousel-item ">
           <div class="container">
             <div class="row">
 
@@ -470,7 +493,7 @@
 
                 <div class="review-text px-5">
                   <h2 class="text-capitalize mb-3">
-                    Mahmudul Hasan
+                    Morshed Alam
                   </h2>
 
                   <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod rerum illum, dolorum
@@ -483,16 +506,170 @@
           </div>
         </div>
 
-        <a href="#slider" class="carousel-control-prev" role="button" data-slider="prev">
-          <span class="carousel-control-prev-icon"></span>
+        <a href="#slider" class="carousel-control-prev" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         </a>
 
-        <a href="#slider" class="carousel-control-next" role="button" data-slider="next">
-          <span class="carousel-control-next-icon"></span>
+        <a href="#slider" class="carousel-control-next" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </a>
       </div>
     </div>
   </section>
+
+  <!--================ Team Section =================-->
+  <section id="team" class="py-5">
+    <div class="container">
+      <div class="row">
+
+        <!-- team member -->
+        <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4 teams">
+          <div class="card">
+            <img src="./assets/review/review-1.jpg" alt="" class="card-img-top">
+            <div class="card-title">
+              <h1 class="text-capitalize text-center">Mahmudul Hasan</h1>
+            </div>
+            <h4 class="text-center">Chef</h4>
+          </div>
+          <div class="card-footer team-icons d-flex justify-content-between">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+          </div>
+        </div>
+
+        <!-- team member -->
+        <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4 teams">
+          <div class="card">
+            <img src="./assets/review/review-2.png" alt="" class="card-img-top">
+            <div class="card-title">
+              <h1 class="text-capitalize text-center">Mahmudul Hasan</h1>
+            </div>
+            <h4 class="text-center">Chef</h4>
+          </div>
+          <div class="card-footer team-icons d-flex justify-content-between">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+          </div>
+        </div>
+
+        <!-- team member -->
+        <div class="col-9 col-sm-6 col-lg-4 mx-auto my-4 teams">
+          <div class="card">
+            <img src="./assets/review/review-1.jpg" alt="" class="card-img-top">
+            <div class="card-title">
+              <h1 class="text-capitalize text-center">Mahmudul Hasan</h1>
+            </div>
+            <h4 class="text-center">Chef</h4>
+          </div>
+          <div class="card-footer team-icons d-flex justify-content-between">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!--================ Contact Section =================-->
+  <section id="contact">
+    <div class="container-fluid no-padding">
+      <div class="row">
+
+        <div class="col-md-6 my-4 align-self-center">
+          <div class="embed-responsive embed-responsive-21by9 height-60">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467337.4555759571!2d90.13913301904593!3d23.780383644165635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1611390076949!5m2!1sen!2sbd"
+              width="100%" height="350px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+              tabindex="0" class="embed-responsive-item">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="col-md-6 my-3">
+          <div class="card text-center">
+            <div class="card-header">
+              <h1 class="text-uppercase">Contact Us</h1>
+            </div>
+            <div class="card-body">
+              <form>
+
+                <!--=========== Input Group 1 ===========-->
+                <div class="input-group my-3">
+                  <span class="input-group-text" id="input-text">
+                      <i class="fas fa-user"></i>
+                  </span>
+                  <input type="text" id="text" class="form-control form-control-lg" placeholder="Enter your name here">
+                </div>
+
+                <!--=========== Input Group 2 ===========-->
+                <div class="input-group my-3">
+                  <span class="input-group-text" id="input-text">
+                      <i class="fas fa-phone"></i>
+                  </span>
+                  <input type="phone" id="phone" class="form-control form-control-lg" placeholder="Enter your Phone number here">
+                </div>
+
+                <!--=========== Input Group 3 ===========-->
+                <div class="input-group my-3">
+                  <span class="input-group-text" id="input-email">
+                      <i class="fas fa-envelope"></i>
+                  </span>
+                  <input type="email" id="email" class="form-control form-control-lg" placeholder="Enter your email here">
+                </div>
+
+                <!--=========== Input Group 4 ===========-->
+                <div class="input-group my-3">
+                  <span class="input-group-text" id="input-email">
+                      <i class="fas fa-pen-nib"></i>
+                  </span>
+                  <textarea class="form-control form-control-lg" placeholder="Write your opinion" aria-lebel="with textarea"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block btn-lg text-uppercase"><i class="fas fa-rocket"></i> Submit your letter</button>
+
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!--================ Footer Section =================-->
+  <div class="container-fluid info p-3" id="info-icons">
+    <div class="row">
+      <div class="d-flex justify-content-between align-items-baseline flex-wrap">
+        <div class="info-icons p-2">
+          <a href="#" class="mr-2 primary-color">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="#" class="mr-2 primary-color">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="#" class="mr-2 primary-color">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+        <h2 class="primary-color p-2 text-capitalize"> 
+          &copy;Copyright 2021</h2>
+      </div>
+    </div>
+  </div>
+
+  <!--================ Back to Top Icon =================-->
+  <a href="#top-icons" class="p-1" id="back-to-top">
+    <i class="fas fa-arrow-circle-up fa-3x"></i> 
+  </a>
 
 
   <!-- Jquery -->
